@@ -1,0 +1,85 @@
+.navbar {
+  letter-spacing: 0.8px;
+  .navbar-networks {
+    font-size: 1.5rem;
+    padding-top: 0.2rem;
+    display: flex;
+    a {
+      background-color: rgb(31, 28, 28);
+      color: white;
+      border-radius: 50%;
+      display: inline-flex;
+      padding: 8px;
+      margin-right: 50px;
+      border: 2px solid white;
+      width: 45px;
+      height: 45px;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      &:before {
+        content: "";
+        width: 46px;
+        height: 46px;
+        position: absolute;
+        border-radius: 50%;
+        box-sizing: content-box;
+        box-shadow: 0 0 0 2px #fff;
+        opacity: 0;
+        transition: 0.5s;
+        left: 0;
+        top: -1;
+        left: -3px;
+      }
+      &:hover {
+        color: black;
+        background-color: white;
+        transition: 0.5s;
+      }
+      &:hover:before {
+        transition: 0.5s;
+        opacity: 1;
+        transform: scale(1.1);
+      }
+    }
+    button {
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 0 25px 0 25px;
+      margin-left: 40px;
+      font-size: 1.4rem;
+      position: relative;
+      z-index: 1;
+      &::before {
+        background-color: white;
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        transition: 0.4s;
+        z-index: -1;
+      }
+      &:hover {
+        color: black;
+      }
+      &:hover:before {
+        width: 101%;
+      }
+    }
+  }
+
+  .navbar-nav .nav-link {
+    color: white !important;
+    opacity: 0.8;
+    padding: 0 30px;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .navbar-nav .activeLink {
+    opacity: 1;
+  }
+}
