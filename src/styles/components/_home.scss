@@ -1,0 +1,88 @@
+.home {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 240px 0 0 80px;
+  background-image: url("../../../public/img/banner-bg.png");
+  background-position: top center;
+  background-size: cover;
+  color: white;
+
+  .info {
+    text-align: center;
+    .welcome {
+      border: 1px solid white;
+      font-size: 1.5rem;
+      font-weight: 700;
+      padding: 8px;
+      color: white;
+      background: linear-gradient(
+        90.21deg,
+        rgba(170, 54, 124, 0.5) -5.91%,
+        rgba(74, 47, 189, 0.5) 111.58%
+      );
+      letter-spacing: 0.9px;
+    }
+    h1 {
+      font-size: 2.6rem;
+      margin: 20px 0 30px;
+      font-weight: 500;
+    }
+    p {
+      color: rgb(134, 134, 129);
+      letter-spacing: 0.7px;
+    }
+    button {
+      font-size: 1.6rem;
+      background-color: transparent;
+      color: white;
+      border: none;
+      display: flex;
+      align-items: center;
+      letter-spacing: 1px;
+      font-weight: 600;
+      margin-top: 80px;
+      svg {
+        margin-left: 20px;
+        transition: ease-in-out 0.5s;
+      }
+      &:hover {
+        svg {
+          margin-left: 70px;
+        }
+      }
+    }
+  }
+  .img {
+    img {
+      width: 70%;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .home {
+    grid-template-columns: 100%;
+    padding: 0;
+    .info {
+      margin-top: 200px;
+      p {
+        width: 80%;
+        margin: auto;
+      }
+      button {
+        margin-left: 90px;
+      }
+      h1 {
+        div {
+          width: 80%;
+          margin: auto;
+        }
+      }
+    }
+    .img img {
+      display: flex;
+      margin: auto;
+      width: 60%;
+    }
+  }
+}

@@ -12,7 +12,7 @@ const NavBar = () => {
   useEffect(() => {
     //Fonction pour le scroll
     const onScroll = () => {
-      if (window.scrollY > 50) setIsScroll(true);
+      if (window.scrollY > 100) setIsScroll(true);
       else setIsScroll(false);
     };
 
@@ -20,7 +20,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <Navbar bg="black" expand="lg" className={isScroll ? "scroll" : ""}>
+    <Navbar expand="lg" className={isScroll ? "scroll" : ""}>
       <Container>
         <Navbar.Brand href="#home">
           <img src="./img/logo.svg" alt="logo" />

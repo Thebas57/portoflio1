@@ -9,6 +9,7 @@
     "bootstrap": "^5.2.2",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
+    "react-animated-text": "^0.1.4",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
