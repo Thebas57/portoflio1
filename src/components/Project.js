@@ -5,8 +5,8 @@ const Project = ({ props }) => {
     <div className="project">
       <img src={props.picture} alt="" />
       <div className="txt-hide">
-        <h2>test</h2>
-        <p>test</p>
+        <h2>{props.name}</h2>
+        <p>{props.info}</p>
       </div>
     </div>
   );

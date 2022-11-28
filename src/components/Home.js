@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import { Wave, Random } from "react-animated-text";
+import { Wave } from "react-animated-text";
 
 const Home = () => {
   return (

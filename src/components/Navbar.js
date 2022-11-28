@@ -52,10 +52,10 @@ const NavBar = () => {
           </Nav>
           <div className="navbar-networks">
             <div>
-              <a href="#">
+              <a href="/#">
                 <FaGithubSquare />
               </a>
-              <a href="#">
+              <a href="/#">
                 <FaLinkedin />
               </a>
             </div>
