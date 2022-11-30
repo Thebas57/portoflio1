@@ -3,6 +3,7 @@
 @import "./components/skill.scss";
 @import "./components/projects.scss";
 @import "./components/contact.scss";
+@import "./components/footer.scss";
 
 @font-face {
   font-family: Centra;
@@ -22,4 +23,10 @@
 
 body {
   font-family: "Centra", sans-serif !important;
+}
+
+section{
+  padding: 50px 0 0 0;
+  position: relative;
+  background-color: black;
 }

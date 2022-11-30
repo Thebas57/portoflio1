@@ -36,14 +36,14 @@ const NavBar = () => {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#Skills"
+              href="#skills"
               className={activeLink === "skills" ? "activeLink" : ""}
               onClick={(e) => setActiveLink("skills")}
             >
               Compétences
             </Nav.Link>
             <Nav.Link
-              href="#Projects"
+              href="#projects"
               className={activeLink === "projects" ? "activeLink" : ""}
               onClick={(e) => setActiveLink("projects")}
             >

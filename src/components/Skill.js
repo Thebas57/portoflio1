@@ -20,7 +20,7 @@ const Skill = () => {
 
   return (
     <div className="skill-container">
-      <div className="skill">
+      <div className="skill" id="skills">
         <h1>Compétences</h1>
         <p>
           Le lorem ipsum est, en imprimerie, une suite de mots sans

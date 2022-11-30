@@ -4,7 +4,7 @@ import { Wave } from "react-animated-text";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="info">
         <span className="welcome">Bienvenue sur mon portfolio</span>
         <h1>Bonjour, je suis Théo HELF</h1>
